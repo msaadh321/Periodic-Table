@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Functions</title>
+
+</head>
+<body>
+    <script>
+    function add(a,b){
+        return a+b
+    }
+     function sub(a, b) {
+            return a - b
+        }
+         function mul(a, b) {
+                return a * b
+            }
+             function div(a, b) {
+                    return a / b
+                }
+                document.write("addition of a and b is:", 
+                add(2,3),"<br>")
+            document.write("subtraction of a and b is:",
+                    add(2, 3), "<br>")
+            document.write("multiplication of a and b is:",
+                    add(2, 3), "<br>")
+            document.write("division of a and b is:",
+                    add(2, 3), "<br>")    
+
+    </script>
+</body>
+</html>
