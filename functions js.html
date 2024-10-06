@@ -9,11 +9,15 @@
 </head>
 <body>
     <script>
-        function add(a,b)
-        {
-            document.write(a+b)
-        }
-        welcome(12,4)
+       english=+prompt("Enter Your English Marks")
+       comp = +prompt("Enter Your Computer Marks")
+       sci = +prompt("Enter Your Science Marks")
+       math = +prompt("Enter Your Math Marks")
+       function add(english,comp,sci,math){
+        document.write(english + comp + sci + math)
+       }
+       add(english, comp, sci, math)
+       
     </script>
 </body>
 </html>
